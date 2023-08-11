@@ -1,0 +1,8 @@
+@keyframes heading-up {
+	from{
+		margin-bottom:-6rem;
+	}
+	to{
+		margin-bottom:0;
+	}
+}

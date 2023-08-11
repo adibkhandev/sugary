@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cairo:wght@200;300;400&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@font-face {
+  font-family: "NoeDisplay";
+  src: local("NoeDisplay"),
+   url(~/assets/fonts/NoeDisplay/noe.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NoeDisplay";
+  src: local("NoeDisplay"),
+   url(~/assets/fonts/NoeDisplay/noe-italic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NoeDisplay";
+  src: local("NoeDisplay"),
+   url(~/assets/fonts/NoeDisplay/noe-medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "NoeDisplay";
+  src: local("NoeDisplay"),
+   url(~/assets/fonts/NoeDisplay/noe-medium-italic.ttf) format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "NoeDisplay";
+  src: local("NoeDisplay"),
+   url(~/assets/fonts/NoeDisplay/noe-bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "NoeDisplay";
+  src: local("NoeDisplay"),
+   url(~/assets/fonts/NoeDisplay/noe-bold-italic.ttf) format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "NoeDisplay";
+  src: local("NoeDisplay"),
+    url(~/assets/fonts/NoeDisplay/noe-black.ttf) format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "NoeDisplay";
+  src: local("NoeDisplay"),
+  url(~/assets/fonts/NoeDisplay/noe-black-italic.ttf) format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Affectionate";
+  src: local("Affectionate"),
+   url(~/assets/fonts/Affectionate/affectionate.ttf) format("truetype");
+  font-weight: normal;
+}
