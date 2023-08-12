@@ -33,9 +33,9 @@
 			</div>
 			<button @click="switchNavState()" >
 				<svg class="hamburger" viewBox="0 0 100 100" width="30" >
-					<rect class="top"  width="70" height="7" x="15" y="25" rx="5"/>
+					<rect class="top "  width="70" height="7" x="15" y="25" rx="5"/>
 					<rect class="middle"  width="70" height="7" x="10" y="45" rx="5"/>
-					<rect class="bottom"  width="70" height="7" x="5" y="65" rx="5"/>
+					<rect class="bottom "  width="70" height="7" x="5" y="65" rx="5"/>
 
 				</svg>
 			</button>
@@ -47,6 +47,13 @@
 	</div>
 </template>
 <style lang="scss" scoped>
+
+     .rotateLeft{
+     	transform:rotate(-45deg);
+     }
+     .rotateRight{
+     	transform:rotate(45deg);
+     }
      .mobileActivate{
      	top:0 !important;
      	transition:top 1s ease-in-out;

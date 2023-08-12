@@ -2,16 +2,20 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "predeploy": "nuxt generate"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.1",
+    "gh-pages": "^6.0.0",
     "nuxt": "^3.6.5",
+    "push-dir": "^0.4.1",
     "sass": "^1.64.2",
     "sass-loader": "^13.3.2"
   }
